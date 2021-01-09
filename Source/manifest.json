@@ -1,0 +1,26 @@
+{
+	"manifest_version": 2,
+
+	"name": "Asterisk of Shame",
+    "short_name": "Asterisk",
+	"description": "Adds a red asterisk following the names of the 147 Senators and Representatives who voted to overturn the 2020 election results. ",
+	"author": "Thomas Burke",
+	"version": "1.0",
+
+	"icons": {
+		"16": "icon16.png",
+		"32": "icon32.png",
+		"48": "icon48.png",
+		"128": "icon128.png"
+	},
+
+	"content_scripts":
+	[
+		{
+			"matches": ["*://*/*"],
+			"all_frames": true,
+			"js": ["content_script.js"],
+			"run_at": "document_end"
+		}
+	]
+}
