@@ -22,4 +22,4 @@ This extension can be disabled or removed [following the instructions](https://s
 
 ## Credits
 
-The underlying replacement code is based on the [Millennials to Snake People](https://github.com/ericwbailey/millennials-to-snake-people) extension, which was released under the DWTFYWT public liscense. 
+The underlying replacement code is based on the [Millennials to Snake People](https://github.com/ericwbailey/millennials-to-snake-people) extension, which was released under the DWTFYWT public license. 
